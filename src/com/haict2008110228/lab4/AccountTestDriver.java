@@ -3,7 +3,9 @@ import java.util.Scanner;
 
 public class AccountTestDriver {
     public static void main(String[] args) {
-        Account account = new Account();
+        Account account;
+        account= new Account();
+        
         Scanner scanner =new Scanner(System.in);
         System.out.print("Bạn muốn gửi bao nhiêu tiền:");
         int a =scanner.nextInt();
